@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    background-color: rgb(50, 50, 50);
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1200px;
+}
+header img{
+    width: 100px;
+}
+.blanco{
+    color: white;
+}
+.gris{
+    color: gray;
+}
+#verde{
+    color: green;
+}
+header div a{
+    margin-right: 10px;
+}
+/* imagen de fondo */
+#conferencia{
+
+    background-image: url(../img/hawaii.jpg);
+    background-size: cover;  
+    background-position: center center;
+}
+#conferencia article{
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.577);
+    width:1349px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+ #conferencia div {
+    width: 600px;
+    color: white;
+    text-align: end;
+    margin-right: 80px;
+}
+#conferencia article div p{
+    margin-bottom: 30px;
+}
+#orador{
+    border: 1px solid white;
+}
+#comprar{
+    border: 1px solid rgb(99, 199, 68);
+    background-color: rgb(99, 199, 68);
+    margin-left: 10px;
+}
+#orador, #comprar{
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+/* Main */
+.texto-corto {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.texto-corto div{
+    width: 110px;
+    text-align: center;
+}
+#grosor, #grosor2{
+    font-size: 30px;
+    font-weight: 600;
+}
+#grosor{
+    margin-top: -20px;
+    margin-left: -25px;
+}
+#grosor2{
+    margin-top: -20px;
+    margin-left: -8px;
+}
+/* cards */
+#contenedor{
+    display: flex;
+    justify-content: center;
+}
+#contenedor-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+}
+.card{
+    background-color: #fff;
+    width: 300px;
+}
+.java, .react, #negocios, #startups{
+    border-radius: 6px;
+    padding: 0px 2px 0px 2px;
+}
+.java{
+    border: 1px solid rgb(242, 167, 28);
+    background-color: rgb(242, 167, 28);
+    color: black;
+}
+.react{
+    border: 1px solid rgb(32, 143, 227);
+    background-color:  rgb(32, 143, 227);
+}
+#negocios{
+    border: 1px solid rgb(83, 84, 84);
+    background-color:   rgb(83, 84, 84);
+}
+#startups{
+    border: 1px solid rgb(239, 58, 58);
+    background-color: rgb(239, 58, 58);
+}
+.react, #negocios, #startups{
+    color: white;
+}
+main h2{
+    font-size: 22px;
+}
+.card{
+    height: 550px;
+}
+.card div{
+ width: 300px;
+ padding: 20px 10px;
+}
+#honolulu{
+    display: flex;
+    margin-top: 30px;
+}
+#honolulu img{
+    width: 700px;
+}
+#honolulu article{
+    background-color: rgb(60, 59, 59);
+    color: white;
+    padding: 15px;
+}
+#honolulu article a{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+}
+#formulario form{
+    width: 750px;
+    text-align: center;
+}
+#charla{
+    text-align: left;
+    color: rgb(143, 140, 140);
+    margin-top: 5px;
+}
+button{
+    background-color: rgb(99, 199, 68);
+    border: 1px solid rgb(99, 199, 68) ;
+    border-radius: 5px;
+    color: white;
+    width: 750px;
+    height: 40px;
+}
+.form-floating{
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 70, 98);
+    height: 90px;
+    margin-top: 20px;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+}
+footer a{
+    color: white;
+}
